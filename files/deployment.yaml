@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ktest-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      # leaving blank
+  template:
+    metadata:
+      labels:
+      # leaving blank
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+

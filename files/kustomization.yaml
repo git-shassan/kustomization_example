@@ -1,0 +1,10 @@
+namespace: my-namespace
+namePrefix: dev-
+nameSuffix: "-001"
+commonLabels:
+  app: bingo
+resources:
+- deployment.yaml
+- service.yaml
+patchesStrategicMerge:
+ - replicas.yaml
