@@ -1,0 +1,1 @@
+# kustomization_example
